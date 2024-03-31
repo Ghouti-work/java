@@ -51,6 +51,8 @@ public class App {
 
         // This is a statement in Java TO "PRINT" the value of variable a
 
+        // ____________________________________________________________________________________
+
         if (a > 5) { // this is a condition in Java
 
             // condition in java is a statement that can be either true or false 
@@ -63,6 +65,46 @@ public class App {
             // if the condition is false the code inside the block will not be executed
             System.out.println("a is less than 5");
             
+        }
+
+        // ____________________________________________________________________________________
+
+        // This is a switch statement in Java
+
+        switch (a) { // this is a switch statement in Java
+
+            // switch statement in java is a statement that can be used to select one of many code blocks to be executed
+
+            case 1: // this is a case in Java
+
+                // case in java is a block of code that will be executed if the value of the switch statement is equal to the value of the case
+
+                System.out.println("a is equal to 1"); // This is a statement in Java TO "PRINT" the value of variable a
+
+                break; // this is a break statement in Java
+
+                // break statement in java is a statement that will stop the execution of the code inside the block
+
+            case 2: // this is a case in Java
+
+                // case in java is a block of code that will be executed if the value of the switch statement is equal to the value of the case
+
+                System.out.println("a is equal to 2"); // This is a statement in Java TO "PRINT" the value of variable a
+
+                break; // this is a break statement in Java
+
+                // break statement in java is a statement that will stop the execution of the code inside the block
+
+            default: // this is a default case in Java
+
+                // default case in java is a block of code that will be executed if the value of the switch statement is not equal to any of the cases
+
+                System.out.println("a is not equal to 1 or 2"); // This is a statement in Java TO "PRINT" the value of variable a
+
+                break; // this is a break statement in Java
+
+                // break statement in java is a statement that will stop the execution of the code inside the block
+
         }
 
         // ____________________________________________________________________________________
@@ -154,6 +196,40 @@ public class App {
         return a + b; // this is a statement in Java TO "RETURN" the value of a + b
 
     }
+
+    // ____________________________________________________________________________________
+
+    // this is how take input from the user in Java
+
+    // Scanner scanner = new Scanner(System.in); // this is a scanner object in Java
+
+    // int number = scanner.nextInt(); // this is a statement in Java TO "READ" the value of the variable number
+
+    // ____________________________________________________________________________________
+
+    // this is how to take input from the user in Java
+
+    // BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); // this is a BufferedReader object in Java
+
+    // String line = reader.readLine(); // this is a statement in Java TO "READ" the value of the variable line
+
+    // ____________________________________________________________________________________
+
+    // this is how to take input from the user in Java
+
+    // Console console = System.console(); // this is a Console object in Java
+
+    // String input = console.readLine(); // this is a statement in Java TO "READ" the value of the variable input
+
+    // ____________________________________________________________________________________
+
+    // this is how to take input from the user in Java
+
+    // Scanner scanner = new Scanner(System.in); // this is a scanner object in Java
+
+    // String name = scanner.nextLine(); // this is a statement in Java TO "READ" the value of the variable name
+
+    // ____________________________________________________________________________________
 
 }
 
